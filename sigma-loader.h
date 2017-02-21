@@ -7,8 +7,8 @@
  *
  **/
 
-#ifndef __SIGMA-LOADER_H__
-#define __SIGMA-LOADER_H__
+#ifndef __SIGMA_LOADER_H__
+#define __SIGMA_LOADER_H__
 
 #include <stdint.h>
 

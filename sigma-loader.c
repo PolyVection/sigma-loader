@@ -17,7 +17,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "sigma-loader.h"
+#include "sigma_loader.h"
 
 #ifdef LIBXML_TREE_ENABLED
 
