@@ -6,8 +6,8 @@ LDLIBS=$(shell pkg-config --libs libxml-2.0)
 sigma_loader: i2c.c 
 
 install:
-	install -d $(DESTDIR)/bin
-	install sigma_loader $(DESTDIR)/bin
+	install -d /usr/sbin
+	install sigma_loader /usr/sbin
 
 clean:
 	rm -rf sigma_loader *.o
